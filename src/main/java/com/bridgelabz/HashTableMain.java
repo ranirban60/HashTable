@@ -1,5 +1,5 @@
 /*
-Ability to find frequency of words in a large paragraph phase
+Remove avoidable word from the paragraph phase
  */
 package com.bridgelabz;
 
@@ -24,6 +24,8 @@ public class HashTableMain {
                 value = value + 1;
             hashTable.add(word , value);
         }
+        System.out.println(hashTable);
+        hashTable.remove("avoidable");//remove avoidable word from the paragraph
         System.out.println(hashTable);
     }
 }

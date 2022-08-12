@@ -11,7 +11,6 @@ public class MyMapNode <K,V> {
         this.value = value;
         next = null;
     }
-
     // method getter and setter
     //getKey() method is used to fetch the key
     public K getKey() {
@@ -42,7 +41,7 @@ public class MyMapNode <K,V> {
     @Override
     public String toString() {
         StringBuilder nodeString = new StringBuilder();
-        nodeString.append("MyMapNode{" + " Key= ").append(key).append(" Value= ").append(value).append('}');
+        nodeString.append("MyMapNode{" + " Key = ").append(key).append(" Value = ").append(value).append('}');
         if (next != null)
             nodeString.append("->").append(next);
         return nodeString.toString();
