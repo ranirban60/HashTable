@@ -13,17 +13,20 @@ public class MyMapNode <K,V> {
     }
 
     // method getter and setter
+    //getKey() method is used to fetch the key
     public K getKey() {
         return key;
     }
-
+    //setKey() method is used to set the key
     public void setKey(K key) {
         this.key = key;
 
     }
+    //getValue() method is used to fetch the value
     public V getValue() {
         return value;
     }
+    //setValue() method is used to set the value
     public void setValue(V value) {
         this.value = value;
     }
